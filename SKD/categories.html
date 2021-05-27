@@ -1,0 +1,1533 @@
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title><meta name="robot" content="index, follow" /><meta name="generator" content="Brackets" /><meta name="copyright" content="Orange Technology Solution co.,ltd." /><meta name="designer" content="David M." /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><link type="image/ico" rel="shortcut icon" href="../images/synnex.ico" /><link href="../css/bootstrap.css" rel="stylesheet" /><link href="../css/bootstrap-theme.css" rel="stylesheet" /><link href="../css/layout.css" rel="stylesheet" />
+    <script src="../script/modernizr.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/jquery-ui.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" language="javascript" src="../js/jquery.dotdotdot.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(function () {
+            $('.dotmaster').dotdotdot({
+                watch: 'window'
+            });
+        });
+    </script>
+
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="../js/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="../js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="../js/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+    <script type="text/javascript" src="../js/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="../js/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+    <script type="text/javascript" src="../js/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="../js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox-frame").fancybox({
+                maxWidth: 900,
+                width: '100%',
+                height: '100%'
+            });
+            $('.fancybox').fancybox();
+        });
+    </script>
+
+    <link rel="stylesheet" href="../css/animate.css" /><link rel="stylesheet" href="../css/flexslider.css" />
+    <script src="../js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="../css/animate.css" />
+    <script src="../js/wow.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117254859-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117254859-1');
+    </script>
+
+    <style type="text/css">
+        #truehits img {
+            display: none;
+        }
+    </style>
+    
+    
+
+
+    <style>
+        body.hidescroll {
+            overflow-y: hidden;
+            width: 100%;
+            position: fixed;
+        }
+
+        .bg_menu {
+            background-color: #FFF;
+            -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+            -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+            box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+            height: 90px;
+        }
+
+            .bg_menu.open {
+                position: fixed;
+                z-index: 989;
+                width: 100%;
+            }
+
+        .mainmenu {
+            list-style: none;
+            text-align: center;
+            margin-top: 32px;
+            padding-left: 0;
+        }
+
+            .mainmenu > li {
+                display: inline-block;
+            }
+
+                .mainmenu > li a {
+                    display: block;
+                    text-decoration: none;
+                    font-size: 15px;
+                    color: #010101;
+                    margin: 0 35px;
+                    line-height: 26px;
+                }
+
+        .logo {
+            display: inline-block;
+        }
+
+            .logo img {
+                max-width: 100%;
+                height: auto;
+                margin-top: 22px;
+            }
+
+        .icon_th {
+            background-image: url(../images/th.png);
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+
+        .nav_lang {
+            float: right;
+            margin-top: 30px;
+        }
+
+            .nav_lang.nav > li > a > img {
+                width: 24px;
+                height: 24px;
+            }
+
+            .nav_lang > li > a {
+                padding: 2px 5px;
+                ;
+                border: 1px solid #a8a8a8;
+                color: #333;
+                font-size: 14px;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+
+                .nav_lang > li > a span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+        .search_btn {
+            width: 30px;
+            height: 30px;
+            float: right;
+            margin-top: 30px;
+            border: 1px solid #a8a8a8;
+            margin-right: 7px;
+        }
+
+        .btn_menu {
+            display: none;
+        }
+
+        .dropdown-menu {
+            min-width: 0;
+            right: 0;
+            padding: 0 5px;
+            margin: 0;
+        }
+
+            .dropdown-menu > li > a {
+                padding: 5px;
+            }
+
+        .wrap_dealer_user {
+            position: relative;
+        }
+
+        .dealer_user {
+            background-color: #1fb3b5;
+            border-radius: 5px;
+            color: #FFF;
+            line-height: 32px;
+            background-image: url(../images/dealer/usenamear.png);
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding: 0px 25px 0 30px;
+            font-size: 13px;
+            width: 160px;
+            height: 32px;
+            position: absolute;
+            top: 29px;
+            right: 134px;
+            z-index: 3;
+            cursor: pointer;
+            display: none;
+        }
+
+            .dealer_user::before {
+                content: "";
+                background-image: url(../images/dealer/usernameicon.jpg);
+                position: absolute;
+                width: 14px;
+                height: 14px;
+                left: 10px;
+                top: 8px;
+            }
+
+        .btn_logout {
+            position: absolute;
+            background-color: #a8a8a8;
+            top: 100%;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 1px;
+            display: none;
+        }
+
+        .mainhassub {
+            position: relative;
+        }
+
+        .mainsubmenu {
+            position: absolute;
+            left: 35px;
+            list-style: none;
+            padding: 10px 0 0 0;
+            z-index: 9191;
+            background-color: rgba(255,255,255,0.9);
+            display: none;
+        }
+
+            .mainsubmenu li {
+                position: relative;
+            }
+
+                .mainsubmenu li a {
+                    white-space: nowrap;
+                    display: block;
+                    text-align: left;
+                    margin: 0;
+                    padding: 5px 30px;
+                }
+
+        @media screen and (min-width: 992px) {
+            .mainsubmenu li:hover {
+                background-color: #FFF;
+            }
+
+                .mainsubmenu li:hover > a {
+                    color: #00aaad;
+                }
+        }
+
+        .mainsubmenulv2 {
+            list-style: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: rgba(255,255,255,0.9);
+            padding: 0;
+            display: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            .mainhassub:hover .mainsubmenu {
+                display: block !important;
+            }
+
+            .mainsubmenu li:hover .mainsubmenulv2 {
+                display: block !important;
+            }
+        }
+
+        .mainsubmenulv2 li a {
+            color: #000;
+        }
+
+        .cl-effect-16 {
+            position: relative;
+        }
+
+            .cl-effect-16 a {
+            }
+
+        @media screen and (min-width: 992px) {
+            .cl-effect-16 a::before {
+                color: #00aaad;
+                content: attr(data-hover);
+                position: absolute;
+                opacity: 0;
+                text-shadow: 0 0 1px rgba(255,255,255,0.3);
+                /*-webkit-transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+        -moz-transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+        transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+        -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;*/
+                pointer-events: none;
+            }
+
+            .cl-effect-16:hover a::before,
+            .cl-effect-16:focus a::before {
+                -webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+                -moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+                transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+                opacity: 1;
+            }
+        }
+
+        @media screen and (max-width: 1300px) {
+            .wrap_dealer_user.active .dealer_user {
+                top: 48px;
+                right: 15px;
+            }
+
+            .wrap_dealer_user.active .search_btn, .wrap_dealer_user.active .nav_lang {
+                margin-top: 8px;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .mainmenu > li a {
+                margin: 0 22px;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .bg_menu {
+                height: auto;
+            }
+
+            .mainmenu > li a {
+                margin: 0;
+                padding: 15px 0;
+                font-size: 16px;
+                border-bottom: 1px solid #e9e9e9;
+            }
+
+            .wrap_logo {
+                text-align: center;
+            }
+
+                .wrap_logo.dealer_page {
+                    text-align: left;
+                }
+
+            .logo img {
+                max-width: 130px;
+                height: auto;
+                margin-top: 10px;
+            }
+
+            .btn_menu {
+                display: inline-block;
+            }
+
+            .mainmenu {
+                position: fixed;
+                z-index: 999;
+                background-color: #FFF;
+                margin-top: 0;
+                width: 100%;
+                height: calc(100% - 86px);
+                left: 0;
+                right: 0;
+                top: 85px;
+                border-top: 1px solid #666;
+                padding-top: 10px;
+                overflow-x: scroll;
+                display: none;
+                overflow-y: auto;
+            }
+
+            .btn_menu {
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 7px;
+            }
+
+            .h_menu {
+                width: 16px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+                .h_menu span {
+                    display: block;
+                    background-color: #333;
+                    height: 3px;
+                    margin-top: 3px;
+                }
+
+            .btn_menu span:nth-child(1) {
+                width: 50%;
+            }
+
+            .btn_menu span:nth-child(2) {
+                width: 100%;
+            }
+
+            .btn_menu span:nth-child(3) {
+                width: 80%;
+            }
+
+            .text_menu {
+                font-size: 13px;
+                font-family: 'Josefin Sans', sans-serif;
+                display: inline-block;
+                padding-left: 8px;
+                vertical-align: middle;
+                padding-top: 4px;
+            }
+
+            .search_btn {
+                margin-top: 10px;
+                margin-bottom: 7px;
+            }
+
+            .nav_lang {
+                margin-top: 10px;
+                margin-bottom: 7px;
+            }
+
+            .mainmenu > li {
+                display: block;
+                padding: 0 25px;
+            }
+
+            .wrap_dealer_user.active {
+                top: -40px;
+            }
+
+            .mainsubmenu {
+                position: static;
+            }
+
+            .mainmenu > li a {
+                text-align: left;
+            }
+
+            .mainsubmenu {
+                padding: 0 15px;
+                background-color: #f6f6f6;
+            }
+
+                .mainsubmenu > li a {
+                    padding: 5px 0;
+                    font-size: 14px;
+                }
+
+            .mainsubmenulv2 {
+                position: static;
+                padding-left: 15px;
+            }
+
+            body.lockscorll {
+                overflow-y: hidden;
+                position: fixed;
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .mainmenu {
+                display: block;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <form method="post" action="./products.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3MTA5ODQ5MjQPFgYeClRvdGFsUGFnZXMCAR4LX0ZpcnN0SW5kZXhmHgpfTGFzdEluZGV4AgEWAmYPZBYCZg9kFgJmD2QWBAIDD2QWBAIBD2QWBGYPFgIeBFRleHQF3RQ8bGkgY2xhc3M9J21haW5oYXNzdWIgY2wtZWZmZWN0LTE2Jz48YSBocmVmPScjJyBkYXRhLWhvdmVyPSfguYDguIHguLXguYjguKLguKfguIHguLHguJrguIvguLTguJnguYDguJnguYfguIQnPuC5gOC4geC4teC5iOC4ouC4p+C4geC4seC4muC4i+C4tOC4meC5gOC4meC5h+C4hDwvYT48dWwgY2xhc3M9J21haW5zdWJtZW51Jz48bGk+PGEgaHJlZj0nIyc+4LmA4LiB4Li14LmI4Lii4Lin4LiB4Lix4Lia4Lia4Lij4Li04Lip4Lix4LiXPC9hPjx1bCBjbGFzcz0nbWFpbnN1Ym1lbnVsdjInPjxsaT48YSBocmVmPScuLi9hYm91dC9oaXN0b3J5LmFzcHgnPuC4m+C4o+C4sOC4p+C4seC4leC4tOC4hOC4p+C4suC4oeC5gOC4m+C5h+C4meC4oeC4sjwvYT48L2xpPjxsaT48YSBocmVmPScuLi9hYm91dC9hYm91dF9tZXNzYWdlX2Nlby5hc3B4Jz7guKrguLLguKPguIjguLLguIHguJvguKPguLDguJjguLLguJnguJrguKPguLTguKvguLLguKM8L2E+PC9saT48bGk+PGEgaHJlZj0nLi4vYWJvdXQvYnVzaW5lc3MuYXNweCc+4Lil4Lix4LiB4Lip4LiT4Liw4LiB4Liy4Lij4Lib4Lij4Liw4LiB4Lit4Lia4LiY4Li44Lij4LiB4Li04LiIPC9hPjwvbGk+PGxpPjxhIGhyZWY9Jy4uL2Fib3V0L2FzcnMuYXNweCc+QVNSUzwvYT48L2xpPjxsaT48YSBocmVmPScuLi9hYm91dC9pc28uYXNweCc+4Lih4Liy4LiV4Lij4LiQ4Liy4LiZ4LiX4Li14LmI4Lia4Lij4Li04Lip4Lix4LiX4LmE4LiU4LmJ4Lij4Lix4LiaPC9hPjwvbGk+PC91bD48L2xpPjxsaT48YSBocmVmPScuLi9jc3IvY3NyLmFzcHgnPuC4meC5guC4ouC4muC4suC4ouC4hOC4p+C4suC4oeC4o+C4seC4muC4nOC4tOC4lOC4iuC4reC4muC4leC5iOC4reC4quC4seC4h+C4hOC4oTwvYT48L2xpPjxsaT48YSBocmVmPScuLi9oci9jYXJlZXIuYXNweCc+4Lij4LmI4Lin4Lih4LiH4Liy4LiZ4LiB4Lix4Lia4LmA4Lij4LiyPC9hPjwvbGk+PGxpPjxhIGhyZWY9Jy4uL25ld3Nyb29tLmFzcHgnPuC4q+C5ieC4reC4h+C4guC5iOC4suC4pzwvYT48L2xpPjxsaT48YSBocmVmPScuLi9jb21tdW5pdHkuYXNweCc+Y29tbXVuaXR5PC9hPjwvbGk+PGxpPjxhIGhyZWY9Jy4uL2Fib3V0L2NvbnRhY3QuYXNweCc+4LiV4Li04LiU4LiV4LmI4Lit4LmB4Lil4Liw4LmB4Lic4LiZ4LiX4Li14LmIPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0nY2wtZWZmZWN0LTE2Jz48YSBocmVmPScuLi9tZW1iZXJzL3Byb2R1Y3RzLmFzcHgnIGRhdGEtaG92ZXI9J+C4quC4tOC4meC4hOC5ieC4sic+4Liq4Li04LiZ4LiE4LmJ4LiyPC9hPjwvbGk+PGxpIGNsYXNzPSdtYWluaGFzc3ViIGNsLWVmZmVjdC0xNic+PGEgaHJlZj0nIycgZGF0YS1ob3Zlcj0n4Lia4Lij4Li04LiB4Liy4LijJz7guJrguKPguLTguIHguLLguKM8L2E+PHVsIGNsYXNzPSdtYWluc3VibWVudSc+PGxpPjxhIGhyZWY9Jy4uL3NlcnZpY2Uvd2FycmFudHkuYXNweCc+4LiB4Liy4Lij4Lij4Lix4Lia4Lib4Lij4Liw4LiB4Lix4LiZPC9hPjwvbGk+PGxpPjxhIGhyZWY9Jy4uL3NlcnZpY2UvY2hlY2tfc3RhdHVzLmFzcHgnPuC4o+C4suC4ouC4peC4sOC5gOC4reC4teC4ouC4lOC4h+C4suC4meC4i+C5iOC4reC4oTwvYT48L2xpPjxsaT48YSBocmVmPScuLi9zZXJ2aWNlL3NwYXJlX3BhcnQuYXNweCc+4Liq4Lit4Lia4LiW4Liy4Lih4LiL4Li34LmJ4Lit4Lit4Liw4LmE4Lir4Lil4LmIPC9hPjwvbGk+PGxpPjxhIGhyZWY9Jy4uL3NlcnZpY2UvZmFzdF9zZXJ2aWNlLmFzcHgnPuC4muC4o+C4tOC4geC4suC4o+C4iOC4reC4h+C4hOC4tOC4p+C4reC4reC4meC5hOC4peC4meC5jDwvYT48L2xpPjxsaT48YSBocmVmPScuLi9zZXJ2aWNlL2NvbnRhY3RfdXMuYXNweCc+4LiV4Li04LiU4LiV4LmI4LitIOC5geC4meC4sOC4meC4s+C4neC5iOC4suC4ouC4muC4o+C4tOC4geC4suC4o+C4peC4ueC4geC4hOC5ieC4sjwvYT48L2xpPjxsaT48YSBocmVmPScuLi9zZXJ2aWNlL3NlcnZpY2VfY2VudGVyLmFzcHgnPuC4qOC4ueC4meC4ouC5jOC4muC4o+C4tOC4geC4suC4oyBTeW5uZXgg4LmB4Lil4LiwIFBhcnRuZXI8L2E+PC9saT48bGk+PGEgaHJlZj0nLi4vc2VydmljZS9hdXRob3JpemUuYXNweCc+QnJhbmQgQXV0aG9yaXplIENlbnRlcjwvYT48L2xpPjwvdWw+PC9saT48bGkgY2xhc3M9J21haW5oYXNzdWIgY2wtZWZmZWN0LTE2Jz48YSBocmVmPScjJyBkYXRhLWhvdmVyPSfguJXguLHguKfguYHguJfguJnguIjguLPguKvguJnguYjguLLguKInPuC4leC4seC4p+C5geC4l+C4meC4iOC4s+C4q+C4meC5iOC4suC4ojwvYT48dWwgY2xhc3M9J21haW5zdWJtZW51Jz48bGk+PGEgaHJlZj0nLi4vRV9SZWdpc3RyYXRpb24uYXNweCc+4Liq4Lih4Lix4LiE4Lij4LiV4Lix4Lin4LmB4LiX4LiZ4LiI4Liz4Lir4LiZ4LmI4Liy4LiiPC9hPjwvbGk+PGxpPjxhIGhyZWY9J2h0dHA6Ly93d3cuc3lubmV4LmNvLnRoL2RlYWxlcic+U3lubmV4IERlYWxlciBQb3J0YWw8L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSdjbC1lZmZlY3QtMTYnPjxhIGhyZWY9Jy4uL2lyL2lyLmFzcHgnIGRhdGEtaG92ZXI9J+C4meC4seC4geC4peC4h+C4l+C4uOC4meC4quC4seC4oeC4nuC4seC4meC4mOC5jCc+4LiZ4Lix4LiB4Lil4LiH4LiX4Li44LiZ4Liq4Lix4Lih4Lie4Lix4LiZ4LiY4LmMPC9hPjwvbGk+ZAIBDw8WAh8DBVA8aW1nIHNyYz0nLi4vaW1hZ2VzL3RoLnBuZycgYWx0PScuLi4nPjxzcGFuPlRIPC9zcGFuPjxzcGFuIGNsYXNzPSdjYXJldCc+PC9zcGFuPmRkAgMPZBYEAgkPZBYCAgEPFgIfAwWQOzx1bCBjbGFzcz0iY2F0X21lbnUiPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkMSI+PHNwYW4+Q09NUFVURVIgJiBOT1RFQk9PSyA8L3NwYW4+PC9hPjx1bCBjbGFzcz0iY2F0X3N1Ym1lbnUiPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU9BPT0iPkFMTCBJTiBPTkUgUEMgKENPTU1FUkNJQUwpPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9T1E9PSI+Tk9URUJPT0sgKCBDT01NRVJDSUFMICk8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVEE9Ij5QQyAoIENPTU1FUkNJQUwgKTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1RPT0iPk5PVEVCT09LIFBFUlNPTkFMIENPTVBVVEVSPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TWc9PSI+UEVSU09OQUwgQ09NUFVURVI8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Ndz09Ij5BTEwgSU4gT05FIFBDPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TVRFMiI+T1BUSU9OIFBBUlRTDQo8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1OQT09Ij5NSU5JIFBDPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9Tnc9PSI+QUNDRVNTT1JJRVM8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1OZz09Ij5PUFRJQ0FMIERSSVZFUzwvYT48L2xpPjwvdWw+PC9saT48bGkgY2xhc3M9ImNhdF9oYXNzdWIiPjxhIGNsYXNzPSJSZWNJZDQiPjxzcGFuPkRJU1BMQVkgUFJPRFVDVCA8L3NwYW4+PC9hPjx1bCBjbGFzcz0iY2F0X3N1Ym1lbnUiPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1qZz0iPkxDRCBNT05JVE9SICggQ09NTUVSQ0lBTCApPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TWpVPSI+TENEIE1PTklUT1I8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Nalk9Ij5MQ0QgUFJPSkVDVE9SPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkNyI+PHNwYW4+R0FER0VUICYgQUNDRVNTT1JZIDwvc3Bhbj48L2E+PHVsIGNsYXNzPSJjYXRfc3VibWVudSI+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TlRRPSI+Tk9URUJPT0sgT1BUSU9OPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TlRNPSI+RFJPTkU8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1PVGM9Ij5BQ0NFU1NPUlkNCjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5UZz0iPkFDQ0VTU09SWSBGT1IgVFYgR0FNRTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5qQT0iPlBSRU1JVU0gU1RFUkVPIEhFQURTRVQ8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1OVFk9Ij5LRVlCT0FSRDwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5UVT0iPk1PVVNFPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TlRjPSI+VklERU8gQ09ORkVSRU5DRSA8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1OVGs9Ij5TUEVBS0VSPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVEF5IiBjbGFzcz0iUmVjSWQxNSIgID48c3Bhbj5HQU1JTkc8L3NwYW4+PC9hPjwvbGk+PGxpIGNsYXNzPSJjYXRfaGFzc3ViIj48YSBjbGFzcz0iUmVjSWQxNCI+PHNwYW4+SU5EVVNUUklBTCA8L3NwYW4+PC9hPjx1bCBjbGFzcz0iY2F0X3N1Ym1lbnUiPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU9UTT0iPklORFVTVFJJQUwgTkVUV09SSyBNQU5BR0VNRU5UPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9T1RJPSI+SU5EVVNUUklBTCBORVRXT1JLIEFDQ0VTU09SSUVTPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9T1RFPSI+SU5EVVNUUklBTCBTV0lUQ0g8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1PVFE9Ij5JTkRVU1RSSUFMIFdJUkVMRVNTPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkMTIiPjxzcGFuPk5FVFdPUksgPC9zcGFuPjwvYT48dWwgY2xhc3M9ImNhdF9zdWJtZW51Ij48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1PREU9Ij5TV0lUQ0ggPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9T0RNPSI+V0lSRUxFU1MgTEFOPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TnpNPSI+SVAgQ0FNRVJBPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TVRBdyI+TkVUV09SSyBWSURFTyBSRUNPREUNCjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU56UT0iPkxBTiBDQVJEPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TnpZPSI+TkVUV09SSyBBQ0NFU1NPUlk8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Oems9Ij5ST1VURVI8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Oemc9Ij5ORVRXT1JLIFNFQ1VSSVRZIChGSVJFV0FMTCk8L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSJjYXRfaGFzc3ViIj48YSBjbGFzcz0iUmVjSWQyIj48c3Bhbj5QQyBDT01QT05FTlQgPC9zcGFuPjwvYT48dWwgY2xhc3M9ImNhdF9zdWJtZW51Ij48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVEU9Ij5ERVNLVE9QIFBST0NFU1NPUjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1UST0iPk1BSU5CT0FSRDwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1UZz0iPlZJREVPIENBUkQ8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1PVFk9Ij5DT09MSU5HIFNZU1RFTQ0KPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9T1RrPSI+Q0FTRTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1qRT0iPkRSQU08L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVGM9Ij5TQVRBIFNPTElEIFNUQVRFIERSSVZFPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TVRVPSI+SEFSRERJU0sgVklERU8gMjQvNzwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1UTT0iPkhBUkRESVNLIERFU0tUT1A8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVGs9Ij5IQVJERElTSyBFTlRFUlBSSVNFPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TVRRPSI+SEFSRERJU0sgTk9URUJPT0s8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NVFk9Ij5IQVJERElTSyBOQVMgJiBSQUlEPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkNSI+PHNwYW4+UFJJTlRFUiAmIFNVUFBMWSA8L3NwYW4+PC9hPjx1bCBjbGFzcz0iY2F0X3N1Ym1lbnUiPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16VT0iPkFDQ0VTU09SWTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16UT0iPkJBUkNPREUgJiBMQUJFTExJTkcgRVFVSVBNRU5UPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TkRBPSI+RkFYIFNVUFBMWTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16az0iPkZBWDwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5ERT0iPklOSyBDQVJUUklER0U8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1ORFk9Ij5DT0xPUiBMQVNFUiBQUklOVEVSPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TkRRPSI+QUxMIElOIE9ORSBMQVNFUiBQUklOVEVSPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TkRNPSI+TEFTRVIgUFJJTlRFUjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16Yz0iPkFMTCBJTiBPTkUgTUFDSElORTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16TT0iPk9QVElPTiBQQVJUUzwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16Zz0iPlNDQU5ORVI8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Nekk9Ij5TRVdJTkcgTUFDSElORTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5EST0iPlNUQVRJT05FUlkgJiBTVVBQTElFUzwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16WT0iPlRPTkVSPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TkRjPSI+SU5LSkVUIFBSSU5URVI8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1NekU9Ij5QTE9UVEVSPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TWprPSI+UEhPVE8gUFJJTlRFUjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU16QT0iPkRPVCBNQVRSSVggUFJJTlRFUjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5EZz0iPlJJQkJPTjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5EVT0iPk1JRERMRSBISUdILUVORCBMQVNFUiBQUklOVEVSXzwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5Eaz0iPk9QVElPTiBGT1IgTEFTRVIgUFJJTlRFUjwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU5UQT0iPlBBUEVSPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkMTEiPjxzcGFuPlNFUlZFUiZTVE9SQUdFIDwvc3Bhbj48L2E+PHVsIGNsYXNzPSJjYXRfc3VibWVudSI+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TmpjPSI+TkVUV09SSyBBVFRBQ0hFRCBTVE9SQUdFICggTkFTICk8L2E+PC9saT48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Oams9Ij5TRVJWRVI8L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSJjYXRfaGFzc3ViIj48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1URTUiIGNsYXNzPSJSZWNJZDE4IiAgPjxzcGFuPlNNQVJUSE9NRTwvc3Bhbj48L2E+PC9saT48bGkgY2xhc3M9ImNhdF9oYXNzdWIiPjxhIGNsYXNzPSJSZWNJZDYiPjxzcGFuPlNNQVJUUEhPTkUgJiBUQUJMRVQgPC9zcGFuPjwvYT48dWwgY2xhc3M9ImNhdF9zdWJtZW51Ij48bGk+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1OVEU9Ij5TTUFSVCBQSE9ORTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU9UVT0iPkFDQ0VTU09SWQ0KPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TlRJPSI+VEFCTEVUIFBDPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgY2xhc3M9IlJlY0lkMTAiPjxzcGFuPlNPRlRXQVJFIDwvc3Bhbj48L2E+PHVsIGNsYXNzPSJjYXRfc3VibWVudSI+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TmpRPSI+T1BFUkFUSU5HIFNZU1RFTSAoIE9FTSApPC9hPjwvbGk+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TmpVPSI+U09GVFdBUkUgRlVMTCBQQUNLQUdFIFBST0RVQ1Q8L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSJjYXRfaGFzc3ViIj48YSBjbGFzcz0iUmVjSWQzIj48c3Bhbj5TVE9SQUdFICYgRElHSVRBTCBNRURJQSBDQVJEIDwvc3Bhbj48L2E+PHVsIGNsYXNzPSJjYXRfc3VibWVudSI+PGxpPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TWpJPSI+RkxBU0ggQ0FSRDwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1qTT0iPlVTQiBGTEFTSCBEUklWRTwvYT48L2xpPjxsaT48YSBocmVmPSJwcm9kdWN0c2xpc3QuYXNweD9CcmFuZD0mU3ViQ2F0PU1qUT0iPkhBUkRESVNLIEVYVEVSTkFMIERSSVZFPC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0iY2F0X2hhc3N1YiI+PGEgaHJlZj0icHJvZHVjdHNsaXN0LmFzcHg/QnJhbmQ9JlN1YkNhdD1Oakk9IiBjbGFzcz0iUmVjSWQ5IiAgPjxzcGFuPlVQUzwvc3Bhbj48L2E+PC9saT48bGkgY2xhc3M9ImNhdF9oYXNzdWIiPjxhIGhyZWY9InByb2R1Y3RzbGlzdC5hc3B4P0JyYW5kPSZTdWJDYXQ9TmpFPSIgY2xhc3M9IlJlY0lkOCIgID48c3Bhbj5WSURFTyBTVVJWRUlMTEFOQ0UgU1lTVEVNPC9zcGFuPjwvYT48L2xpPjwvdWw+ZAILD2QWAgIDD2QWBAILDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQYucHJvZHVjdGRldGFpbC5hc3B4P0l0ZW1pZD1RVEV0U3pRME1WVkJMVmRZTVRNMClQaWNRdWVyeS5hc3B4P0l0ZW1JZD1RVEV0U3pRME1WVkJMVmRZTVRNMA1OT1RFQk9PSyBBU1VTD0ExLUs0NDFVQS1XWDEzNAxNb3JlIERldGFpbHMYUGljUXVlcnkuYXNweD9CcmFuZD1BU1VTZAIBD2QWAmYPFQY2cHJvZHVjdGRldGFpbC5hc3B4P0l0ZW1pZD1WelUyTnpFME1EUmZOelUyTjE5Q1MxOVZLMEpRMVBpY1F1ZXJ5LmFzcHg/SXRlbUlkPVZ6VTJOekUwTURSZk56VTJOMTlDUzE5VkswSlEVVzU2NzE0MDRfNzU2N19CS19VK0JQFVc1NjcxNDA0Xzc1NjdfQktfVStCUAxNb3JlIERldGFpbHMYUGljUXVlcnkuYXNweD9CcmFuZD1ERUxMZAICD2QWAmYPFQZCcHJvZHVjdGRldGFpbC5hc3B4P0l0ZW1pZD1WelUyTnpFMU1USTFSMTlZVUZNeE0xOUhUMHhFWDFkSlRqRXdLME09PVBpY1F1ZXJ5LmFzcHg/SXRlbUlkPVZ6VTJOekUxTVRJMVIxOVlVRk14TTE5SFQweEVYMWRKVGpFd0swTT0dVzU2NzE1MTI1R19YUFMxM19HT0xEX1dJTjEwK0MdVzU2NzE1MTI1R19YUFMxM19HT0xEX1dJTjEwK0MMTW9yZSBEZXRhaWxzGFBpY1F1ZXJ5LmFzcHg/QnJhbmQ9REVMTGQCDQ8PFgIeB1Zpc2libGVoZBYMAgEPDxYCHgdFbmFibGVkaGRkAgMPDxYCHwZoZGQCBw8WAh8EAgEWAmYPZBYCAgEPDxYCHg9Db21tYW5kQXJndW1lbnQFATBkFgJmDxUBATFkAgkPDxYCHwZoZGQCCw8PFgIfBmhkZAINDw8WAh8DBQtQYWdlIDEgb2YgMWRkAgUPZBYeAgEPDxYCHwMFJOC5gOC4geC4teC5iOC4ouC4p+C4geC4seC4muC5gOC4o+C4smRkAgMPDxYCHwMFJOC4guC5ieC4reC4oeC4ueC4peC4muC4o+C4tOC4qeC4seC4l2RkAgUPDxYCHwMFJ+C4o+C5iOC4p+C4oeC4h+C4suC4meC4geC4seC4muC5gOC4o+C4smRkAgcPDxYCHwMFFeC4guC5iOC4suC4p+C4quC4suC4o2RkAgkPDxYCHwMFEuC4quC4tOC4meC4hOC5ieC4smRkAgsPDxYCHwMFGOC4q+C4oeC4p+C4lOC4q+C4oeC4ueC5iGRkAg0PDxYCHwMFEuC5geC4muC4o+C4meC4lOC5jGRkAg8PDxYCHwMFEuC4muC4o+C4tOC4geC4suC4o2RkAhEPDxYCHwMFJOC4geC4suC4o+C4o+C4seC4muC4m+C4o+C4sOC4geC4seC4mWRkAhMPDxYCHwMFOeC4muC4o+C4tOC4geC4suC4o+C4iOC4reC4h+C4hOC4tOC4p+C4reC4reC4meC5hOC4peC4meC5jGRkAhUPDxYCHwMFM+C4o+C4suC4ouC4peC4sOC5gOC4reC4teC4ouC4lOC4h+C4suC4meC4i+C5iOC4reC4oWRkAhcPDxYCHwMFJ+C4leC4seC4p+C5geC4l+C4meC4iOC4s+C4q+C4meC5iOC4suC4omRkAhkPDxYCHwMFMOC4meC4seC4geC4peC4h+C4l+C4uOC4meC4quC4seC4oeC4nuC4seC4meC4mOC5jGRkAhsPDxYCHwMFQuC4o+C5ieC4reC4h+C5gOC4o+C4teC4ouC4meC5geC4peC4sOC5geC4iOC5ieC4h+C5gOC4muC4suC4sOC5geC4qmRkAh0PDxYCHwMFV+C4o+C5ieC4reC4h+C5gOC4o+C4teC4ouC4meC5geC4peC4sOC5geC4meC4sOC4meC4s+C4geC4suC4o+C5g+C4q+C5ieC4muC4o+C4tOC4geC4suC4o2RkZJynr3DVuKe8B5R9BQ2JPEjvi1zUW+F33hJKBNH4HJmt" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/th/WebResource.axd?d=pHLnwhquoAJR6Zkr0JsnD7BpyTxHzT5vIA-v7Wvx1pCdvbUJNFDkVVcPMfqMFupLXvdlsTlF3hWMaI2PXc-bbLX6woskx4mJ4RI4YosegdU1&amp;t=636686906738678653" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4CDFE69F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAdnc4bno4JfvcLR4im9vbZjkGgsWbOyJJA5msqUiIteGkZAhj5ZkrnP+oBrp0e0jrKuGTSJRcouj6XE6w3gMY6KNF4sb+O0SMRQwjsEXH2Mnm5ryN5Ibe7mkorqUChUAvRVk/4W/FopZifCELkbd6Cf2YClJ1nJwWClx9NWy0yJNLZkOUzRmBguf76MpLFg9xQ=" />
+</div>
+        <div class="container-fluid">
+            <!--------------inc menu-------------------->
+            
+
+<!--------------inc menu-------------------->
+<style>
+    .bg_menu {
+        background-color: #FFF;
+        -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+        height: 90px;
+    }
+
+        .bg_menu.open {
+            position: fixed;
+            z-index: 989;
+            width: 100%;
+        }
+
+    .mainmenu {
+        list-style: none;
+        text-align: center;
+        margin-top: 32px;
+        padding-left: 0;
+    }
+
+        .mainmenu > li {
+            display: inline-block;
+        }
+
+            .mainmenu > li a {
+                display: block;
+                text-decoration: none;
+                font-size: 15px;
+                color: #010101;
+                margin: 0 22px;
+                line-height: 26px;
+            }
+
+    .logo {
+        display: inline-block;
+    }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 22px;
+        }
+
+    .icon_th {
+        background-image: url(../images/th.png);
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+
+    .nav_lang {
+        float: right;
+        margin-top: 30px;
+    }
+
+        .nav_lang.nav > li > a > img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .nav_lang > li > a {
+            padding: 2px 5px;
+            ;
+            border: 1px solid #a8a8a8;
+            color: #333;
+            font-size: 14px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+            .nav_lang > li > a span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+    .search_btn {
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 30px;
+        border: 1px solid #a8a8a8;
+        margin-right: 7px;
+    }
+
+    .btn_menu {
+        display: none;
+    }
+
+    .dropdown-menu {
+        min-width: 0;
+        right: 0;
+        padding: 0 5px;
+        margin: 0;
+    }
+
+        .dropdown-menu > li > a {
+            padding: 5px;
+        }
+
+    .wrap_dealer_user {
+        position: relative;
+    }
+
+    .dealer_user {
+        background-color: #1fb3b5;
+        border-radius: 5px;
+        color: #FFF;
+        line-height: 32px;
+        background-image: url(../images/dealer/usenamear.png);
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        padding: 0px 25px 0 30px;
+        font-size: 13px;
+        width: 160px;
+        height: 32px;
+        position: absolute;
+        top: 29px;
+        right: 134px;
+        z-index: 3;
+        cursor: pointer;
+        display: none;
+    }
+
+        .dealer_user::before {
+            content: "";
+            background-image: url(../images/dealer/usernameicon.jpg);
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 10px;
+            top: 8px;
+        }
+
+    .btn_logout {
+        position: absolute;
+        background-color: #a8a8a8;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 1px;
+        display: none;
+    }
+
+    .mainhassub {
+        position: relative;
+    }
+
+    .mainsubmenu {
+        position: absolute;
+        left: 35px;
+        list-style: none;
+        padding: 10px 0 0 0;
+        z-index: 102;
+        background-color: rgba(255,255,255,0.9);
+        display: none;
+    }
+
+        .mainsubmenu li {
+            position: relative;
+        }
+
+            .mainsubmenu li a {
+                white-space: nowrap;
+                display: block;
+                text-align: left;
+                margin: 0;
+                padding: 5px 30px;
+            }
+
+    @media screen and (min-width: 992px) {
+        .mainsubmenu li:hover {
+            background-color: #FFF;
+        }
+
+            .mainsubmenu li:hover > a {
+                color: #00aaad;
+            }
+    }
+
+    .mainsubmenulv2 {
+        list-style: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        background-color: rgba(255,255,255,0.9);
+        padding: 0;
+        display: none;
+    }
+
+    @media screen and (min-width: 992px) {
+        .mainhassub:hover .mainsubmenu {
+            display: block !important;
+        }
+
+        .mainsubmenu li:hover .mainsubmenulv2 {
+            display: block !important;
+        }
+    }
+
+    .mainsubmenulv2 li a {
+        color: #000;
+    }
+
+    .cl-effect-16 {
+        position: relative;
+    }
+
+        .cl-effect-16 a {
+        }
+
+    @media screen and (min-width: 992px) {
+        .cl-effect-16 a::before {
+            color: #00aaad;
+            content: attr(data-hover);
+            position: absolute;
+            opacity: 0;
+            text-shadow: 0 0 1px rgba(255,255,255,0.3);
+            /*-webkit-transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+            -moz-transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+            transform: scale(1.1) translateX(5px) translateY(-5px) rotate(2deg);
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+            -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+            transition: transform 0.3s, opacity 0.3s;*/
+            pointer-events: none;
+        }
+
+        .cl-effect-16:hover a::before,
+        .cl-effect-16:focus a::before {
+            -webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+            -moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+            transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+            opacity: 1;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        .wrap_dealer_user.active .dealer_user {
+            top: 48px;
+            right: 15px;
+        }
+
+        .wrap_dealer_user.active .search_btn, .wrap_dealer_user.active .nav_lang {
+            margin-top: 8px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .mainmenu > li a {
+            margin: 0 16px;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .bg_menu {
+            height: auto;
+        }
+
+        .mainmenu > li a {
+            margin: 0;
+            padding: 15px 0;
+            font-size: 16px;
+            border-bottom: 1px solid #e9e9e9;
+        }
+
+        .wrap_logo {
+            text-align: center;
+        }
+
+            .wrap_logo.dealer_page {
+                text-align: left;
+            }
+
+        .logo img {
+            max-width: 130px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .btn_menu {
+            display: inline-block;
+        }
+
+        .mainmenu {
+            position: fixed;
+            z-index: 999;
+            background-color: #FFF;
+            margin-top: 0;
+            width: 100%;
+            height: calc(100% - 86px);
+            left: 0;
+            right: 0;
+            top: 85px;
+            border-top: 1px solid #666;
+            padding-top: 10px;
+            overflow-x: scroll;
+            display: none;
+            overflow-y: auto;
+        }
+
+        .btn_menu {
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 7px;
+        }
+
+        .h_menu {
+            width: 16px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+            .h_menu span {
+                display: block;
+                background-color: #333;
+                height: 3px;
+                margin-top: 3px;
+            }
+
+        .btn_menu span:nth-child(1) {
+            width: 50%;
+        }
+
+        .btn_menu span:nth-child(2) {
+            width: 100%;
+        }
+
+        .btn_menu span:nth-child(3) {
+            width: 80%;
+        }
+
+        .text_menu {
+            font-size: 13px;
+            font-family: 'Josefin Sans', sans-serif;
+            display: inline-block;
+            padding-left: 8px;
+            vertical-align: middle;
+            padding-top: 4px;
+        }
+
+        .search_btn {
+            margin-top: 10px;
+            margin-bottom: 7px;
+        }
+
+        .nav_lang {
+            margin-top: 10px;
+            margin-bottom: 7px;
+        }
+
+        .mainmenu > li {
+            display: block;
+            padding: 0 25px;
+        }
+
+        .wrap_dealer_user.active {
+            top: -40px;
+        }
+
+        .mainsubmenu {
+            position: static;
+        }
+
+        .mainmenu > li a {
+            text-align: left;
+        }
+
+        .mainsubmenu {
+            padding: 0 15px;
+            background-color: #f6f6f6;
+        }
+
+            .mainsubmenu > li a {
+                padding: 5px 0;
+                font-size: 14px;
+            }
+
+        .mainsubmenulv2 {
+            position: static;
+            padding-left: 15px;
+        }
+
+        body.lockscorll {
+            overflow-y: hidden;
+            position: fixed;
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .mainmenu {
+            display: block;
+        }
+    }
+</style>
+<nav class="row bg_menu">
+    <div class="col-xs-12 col-md-2 wrap_logo">
+        <a class="logo" href="../Home.aspx">
+            <img src="../images/logo_synnex.png"></a>
+    </div>
+    <div class="col-xs-6 col-md-8">
+        <div class="btn_menu">
+            <div class="h_menu"><span></span><span></span><span></span></div>
+            <div class="text_menu">MENU</div>
+        </div>
+        <ul class="mainmenu">
+            <li class='mainhassub cl-effect-16'><a href='#' data-hover='เกี่ยวกับซินเน็ค'>เกี่ยวกับซินเน็ค</a><ul class='mainsubmenu'><li><a href='#'>เกี่ยวกับบริษัท</a><ul class='mainsubmenulv2'><li><a href='../about/history.aspx'>ประวัติความเป็นมา</a></li><li><a href='../about/about_message_ceo.aspx'>สารจากประธานบริหาร</a></li><li><a href='../about/business.aspx'>ลักษณะการประกอบธุรกิจ</a></li><li><a href='../about/asrs.aspx'>ASRS</a></li><li><a href='../about/iso.aspx'>มาตรฐานที่บริษัทได้รับ</a></li></ul></li><li><a href='../csr/csr.aspx'>นโยบายความรับผิดชอบต่อสังคม</a></li><li><a href='../hr/career.aspx'>ร่วมงานกับเรา</a></li><li><a href='../newsroom.aspx'>ห้องข่าว</a></li><li><a href='../community.aspx'>community</a></li><li><a href='../about/contact.aspx'>ติดต่อและแผนที่</a></li></ul></li><li class='cl-effect-16'><a href='../members/products.aspx' data-hover='สินค้า'>สินค้า</a></li><li class='mainhassub cl-effect-16'><a href='#' data-hover='บริการ'>บริการ</a><ul class='mainsubmenu'><li><a href='../service/warranty.aspx'>การรับประกัน</a></li><li><a href='../service/check_status.aspx'>รายละเอียดงานซ่อม</a></li><li><a href='../service/spare_part.aspx'>สอบถามซื้ออะไหล่</a></li><li><a href='../service/fast_service.aspx'>บริการจองคิวออนไลน์</a></li><li><a href='../service/contact_us.aspx'>ติดต่อ แนะนำฝ่ายบริการลูกค้า</a></li><li><a href='../service/service_center.aspx'>ศูนย์บริการ Synnex และ Partner</a></li><li><a href='../service/authorize.aspx'>Brand Authorize Center</a></li></ul></li><li class='mainhassub cl-effect-16'><a href='#' data-hover='ตัวแทนจำหน่าย'>ตัวแทนจำหน่าย</a><ul class='mainsubmenu'><li><a href='../E_Registration.aspx'>สมัครตัวแทนจำหน่าย</a></li><li><a href='http://www.synnex.co.th/dealer'>Synnex Dealer Portal</a></li></ul></li><li class='cl-effect-16'><a href='../ir/ir.aspx' data-hover='นักลงทุนสัมพันธ์'>นักลงทุนสัมพันธ์</a></li>
+
+            
+
+        </ul>
+    </div>
+    <div class="col-xs-6 col-md-2 wrap_dealer_user">
+        <div class="dealer_user dotmaster" title="JIBCOMPUTER">
+            JIBCOMPUTER
+            <div class="btn_logout"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>ออกจากระบบ</div>
+        </div>
+        <ul class="nav nav_lang">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    <span id="head_menu_about_Label1"><img src='../images/th.png' alt='...'><span>TH</span><span class='caret'></span></span>
+                    
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a id="navThai" class="language">
+                        <img id="imgNavThai" src="" alt="...">
+                        <span id="lanNavThai">TH</span></a></li>
+                    <li><a id="navEng" class="language">
+                        <img id="imgNavEng" src="" alt="...">
+                        <span id="lanNavEng">EN</span></a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+<input type="submit" name="ctl00$ctl00$ctl00$head_menu_about$btnTh" value="Button" id="head_menu_about_btnTh" hidden="" />
+    <input type="submit" name="ctl00$ctl00$ctl00$head_menu_about$btnEn" value="Button" id="head_menu_about_btnEn" hidden="" />
+
+
+</nav>
+
+<script type="text/javascript">
+
+    $("#navThai").on('click', function () {
+        $("#head_menu_about_btnTh").click();
+    });
+
+    $("#navEng").on('click', function () {
+        $("#head_menu_about_btnEn").click();
+    });
+    
+    $(document).ready(function () {
+
+        var thaiImgLink = "../images/th.png";
+        var engImgLink = "../images/en.png";
+
+        var imgBtnSel = $('#imgBtnSel');
+        var imgBtnThai = $('#imgBtnThai');
+        var imgBtnEng = $('#imgBtnEng');
+
+        var imgNavSel = $('#imgNavSel');
+        var imgNavThai = $('#imgNavThai');
+        var imgNavEng = $('#imgNavEng');
+
+        var spanNavSel = $('#lanNavSel');
+        var spanBtnSel = $('#lanBtnSel');
+
+        imgBtnSel.attr("src", thaiImgLink);
+        imgBtnThai.attr("src", thaiImgLink);
+        imgBtnEng.attr("src", engImgLink);
+
+        imgNavSel.attr("src", thaiImgLink);
+        imgNavThai.attr("src", thaiImgLink);
+        imgNavEng.attr("src", engImgLink);
+
+        $(".language").on("click", function (event) {
+            var currentId = $(this).attr('id');
+
+            if (currentId == "navThai") {
+                imgNavSel.attr("src", thaiImgLink);
+                spanNavSel.text("TH");
+            } else if (currentId == "navEng") {
+                imgNavSel.attr("src", engImgLink);
+                spanNavSel.text("EN");
+            }
+
+        });
+
+        if ($(".wrap_dealer_user > .dealer_user").is(":hidden")) {
+            $(".wrap_dealer_user").removeClass("active");
+            $(".wrap_logo").removeClass("dealer_page");
+        } else {
+            $(".wrap_dealer_user").addClass("active");
+            $(".wrap_logo").addClass("dealer_page");
+        }
+
+        $('.btn_menu').click(function (event) {
+            if ($(".mainmenu").is(":hidden")) {
+                $(".bg_menu").addClass("open");
+                $('.mainmenu').show('fold', 1000);
+                $('body').addClass('lockscorll');
+            } else {
+                $('.mainmenu').hide('drop');
+                $(".bg_menu").removeClass("open");
+                $('.mainsubmenu').slideUp();
+                $('.mainsubmenulv2').slideUp();
+                $('body').removeClass('lockscorll');
+            }
+            event.stopPropagation();
+        });
+
+        $('.dealer_user').click(function (event) {
+            if ($(".btn_logout").is(":hidden")) {
+                $('.btn_logout').slideDown();
+            } else {
+                $('.btn_logout').slideUp();
+            }
+            event.stopPropagation();
+        });
+
+        $('.mainhassub').click(function (event) {
+            if ($(this).children(".mainsubmenu").is(":hidden")) {
+                $('.mainsubmenu').slideUp();
+                $(this).children('.mainsubmenu').slideDown();
+            } else {
+                $('.mainsubmenu').slideUp();
+                $('.mainsubmenulv2').slideUp();
+            }
+            event.stopPropagation();
+        });
+
+        $('.mainsubmenu > li').click(function (event) {
+            if ($(this).children(".mainsubmenulv2").is(":hidden")) {
+                $('.mainsubmenulv2').slideUp();
+                $(this).children('.mainsubmenulv2').slideDown();
+            } else {
+                $('.mainsubmenulv2').slideUp();
+            }
+            event.stopPropagation();
+        });
+
+        $('html').click(function (event) {
+            $('.btn_logout').slideUp();
+        });
+
+    });
+</script>
+<!-----------------------end inc menu ----------->
+            <!-----------------------end inc menu ----------->
+
+            
+    
+    <section class="row">
+                <div class="col-xs-12 wrap_product_slide">
+                    <div class="productsslide flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="../images/banner_product.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+    <section class="row wrap_cate_search">
+                <div class="col-xs-12 col-sm-3 wrap_category">
+                    <div class="btn_cate"><span></span><span></span><span></span></div>
+                    <div class="cate_head">CATEGORIES</div>
+                </div>
+                <div class="col-xs-12 col-sm-7 wrap_search_box">
+                    <div class="wrap_search_product">ค้นหาสินค้า</div>
+                    <input name="ctl00$ctl00$ctl00$ContentPlaceHolder1$tbSearchBox" type="text" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl00$ctl00$ContentPlaceHolder1$tbSearchBox\&#39;,\&#39;\&#39;)&#39;, 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ContentPlaceHolder1_tbSearchBox" class="searchbox" />
+                    
+                    <a id="ContentPlaceHolder1_btnSearch" class="btnsearch" href="javascript:__doPostBack(&#39;ctl00$ctl00$ctl00$ContentPlaceHolder1$btnSearch&#39;,&#39;&#39;)"><span class="glyphicon glyphicon-search"></span></a>
+                    
+                </div>
+                <div class="col-xs-6 col-sm-2 wrap_btn_brand"><a class="btn_brand" href="../members/brand.aspx"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>BRAND</a></div>
+            </section>
+            <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolder1$hdCustCode" id="ContentPlaceHolder1_hdCustCode" />
+            <div class="overlay"></div>
+            <nav class="product_catagory">
+                <div class="btn_cateopen">
+                    <div class="btn_cate"><span></span><span></span><span></span></div>
+                    <div class="cate_head">CATEGORIES</div>
+                    <div class="btn_catclose"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></div>
+                </div>
+                <div id="ContentPlaceHolder1_PanelByCategory">
+	
+                    <ul class="cat_menu"><li class="cat_hassub"><a class="RecId1"><span>COMPUTER & NOTEBOOK </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=OA==">ALL IN ONE PC (COMMERCIAL)</a></li><li><a href="productslist.aspx?Brand=&SubCat=OQ==">NOTEBOOK ( COMMERCIAL )</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTA=">PC ( COMMERCIAL )</a></li><li><a href="productslist.aspx?Brand=&SubCat=MQ==">NOTEBOOK PERSONAL COMPUTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mg==">PERSONAL COMPUTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mw==">ALL IN ONE PC</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTE2">OPTION PARTS
+</a></li><li><a href="productslist.aspx?Brand=&SubCat=NA==">MINI PC</a></li><li><a href="productslist.aspx?Brand=&SubCat=Nw==">ACCESSORIES</a></li><li><a href="productslist.aspx?Brand=&SubCat=Ng==">OPTICAL DRIVES</a></li></ul></li><li class="cat_hassub"><a class="RecId4"><span>DISPLAY PRODUCT </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=Mjg=">LCD MONITOR ( COMMERCIAL )</a></li><li><a href="productslist.aspx?Brand=&SubCat=MjU=">LCD MONITOR</a></li><li><a href="productslist.aspx?Brand=&SubCat=MjY=">LCD PROJECTOR</a></li></ul></li><li class="cat_hassub"><a class="RecId7"><span>GADGET & ACCESSORY </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=NTQ=">NOTEBOOK OPTION</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTM=">DRONE</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTc=">ACCESSORY
+</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTg=">ACCESSORY FOR TV GAME</a></li><li><a href="productslist.aspx?Brand=&SubCat=NjA=">PREMIUM STEREO HEADSET</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTY=">KEYBOARD</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTU=">MOUSE</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTc=">VIDEO CONFERENCE </a></li><li><a href="productslist.aspx?Brand=&SubCat=NTk=">SPEAKER</a></li></ul></li><li class="cat_hassub"><a href="productslist.aspx?Brand=&SubCat=MTAy" class="RecId15"  ><span>GAMING</span></a></li><li class="cat_hassub"><a class="RecId14"><span>INDUSTRIAL </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=OTM=">INDUSTRIAL NETWORK MANAGEMENT</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTI=">INDUSTRIAL NETWORK ACCESSORIES</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTE=">INDUSTRIAL SWITCH</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTQ=">INDUSTRIAL WIRELESS</a></li></ul></li><li class="cat_hassub"><a class="RecId12"><span>NETWORK </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=ODE=">SWITCH </a></li><li><a href="productslist.aspx?Brand=&SubCat=ODM=">WIRELESS LAN</a></li><li><a href="productslist.aspx?Brand=&SubCat=NzM=">IP CAMERA</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTAw">NETWORK VIDEO RECODE
+</a></li><li><a href="productslist.aspx?Brand=&SubCat=NzQ=">LAN CARD</a></li><li><a href="productslist.aspx?Brand=&SubCat=NzY=">NETWORK ACCESSORY</a></li><li><a href="productslist.aspx?Brand=&SubCat=Nzk=">ROUTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=Nzg=">NETWORK SECURITY (FIREWALL)</a></li></ul></li><li class="cat_hassub"><a class="RecId2"><span>PC COMPONENT </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=MTE=">DESKTOP PROCESSOR</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTI=">MAINBOARD</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTg=">VIDEO CARD</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTY=">COOLING SYSTEM
+</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTk=">CASE</a></li><li><a href="productslist.aspx?Brand=&SubCat=MjE=">DRAM</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTc=">SATA SOLID STATE DRIVE</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTU=">HARDDISK VIDEO 24/7</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTM=">HARDDISK DESKTOP</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTk=">HARDDISK ENTERPRISE</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTQ=">HARDDISK NOTEBOOK</a></li><li><a href="productslist.aspx?Brand=&SubCat=MTY=">HARDDISK NAS & RAID</a></li></ul></li><li class="cat_hassub"><a class="RecId5"><span>PRINTER & SUPPLY </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=MzU=">ACCESSORY</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzQ=">BARCODE & LABELLING EQUIPMENT</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDA=">FAX SUPPLY</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mzk=">FAX</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDE=">INK CARTRIDGE</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDY=">COLOR LASER PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDQ=">ALL IN ONE LASER PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDM=">LASER PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mzc=">ALL IN ONE MACHINE</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzM=">OPTION PARTS</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mzg=">SCANNER</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzI=">SEWING MACHINE</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDI=">STATIONERY & SUPPLIES</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzY=">TONER</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDc=">INKJET PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzE=">PLOTTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=Mjk=">PHOTO PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=MzA=">DOT MATRIX PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDg=">RIBBON</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDU=">MIDDLE HIGH-END LASER PRINTER_</a></li><li><a href="productslist.aspx?Brand=&SubCat=NDk=">OPTION FOR LASER PRINTER</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTA=">PAPER</a></li></ul></li><li class="cat_hassub"><a class="RecId11"><span>SERVER&STORAGE </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=Njc=">NETWORK ATTACHED STORAGE ( NAS )</a></li><li><a href="productslist.aspx?Brand=&SubCat=Njk=">SERVER</a></li></ul></li><li class="cat_hassub"><a href="productslist.aspx?Brand=&SubCat=MTE5" class="RecId18"  ><span>SMARTHOME</span></a></li><li class="cat_hassub"><a class="RecId6"><span>SMARTPHONE & TABLET </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=NTE=">SMART PHONE</a></li><li><a href="productslist.aspx?Brand=&SubCat=OTU=">ACCESSORY
+</a></li><li><a href="productslist.aspx?Brand=&SubCat=NTI=">TABLET PC</a></li></ul></li><li class="cat_hassub"><a class="RecId10"><span>SOFTWARE </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=NjQ=">OPERATING SYSTEM ( OEM )</a></li><li><a href="productslist.aspx?Brand=&SubCat=NjU=">SOFTWARE FULL PACKAGE PRODUCT</a></li></ul></li><li class="cat_hassub"><a class="RecId3"><span>STORAGE & DIGITAL MEDIA CARD </span></a><ul class="cat_submenu"><li><a href="productslist.aspx?Brand=&SubCat=MjI=">FLASH CARD</a></li><li><a href="productslist.aspx?Brand=&SubCat=MjM=">USB FLASH DRIVE</a></li><li><a href="productslist.aspx?Brand=&SubCat=MjQ=">HARDDISK EXTERNAL DRIVE</a></li></ul></li><li class="cat_hassub"><a href="productslist.aspx?Brand=&SubCat=NjI=" class="RecId9"  ><span>UPS</span></a></li><li class="cat_hassub"><a href="productslist.aspx?Brand=&SubCat=NjE=" class="RecId8"  ><span>VIDEO SURVEILLANCE SYSTEM</span></a></li></ul>
+                
+</div>
+                
+            </nav>
+
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.css">
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script>
+                $('.wrap_category').click(function (event) {
+                    if ($(".product_catagory").hasClass("category_open")) {
+                        $('body').removeClass('category_open');
+                    } else {
+                        $('body').addClass('category_open');
+                    }
+                    event.stopPropagation();
+                });
+
+                $('.cat_hassub').click(function (event) {
+                    if ($(this).children(".cat_submenu").is(":hidden")) {
+                        $(".cat_submenu").slideUp();
+                        $(".cat_hassub").removeClass("active");
+                        $(this).children(".cat_submenu").slideDown();
+                        $(this).addClass("active");
+                    } else {
+                        $(".cat_submenu").slideUp();
+                        $(".cat_hassub").removeClass("active");
+                    }
+                    event.stopPropagation();
+                });
+
+                $('.overlay, .btn_catclose').click(function (event) {
+                    $('body').removeClass('category_open');
+                    $(".cat_submenu").slideUp();
+                });
+
+
+        //overflow-y for category menu
+                var cat_height = $(window).height() - 60;
+                $(".cat_menu").css({ height: cat_height });
+        
+                (function ($) {
+                    $(window).on("load", function () {
+                        $(".cat_menu").mCustomScrollbar();
+                    });
+                })(jQuery);
+         //overflow-y for category menu
+            </script>
+
+    
+
+    
+     
+    
+
+     
+   
+    <style type="text/css">
+        .PanelPageNumber a {cursor:pointer;}
+        .PanelPageNumber .btnFirst {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 20px -5px 20px 0px;
+            vertical-align: top;
+            line-height: 1.42857143;
+            color: #666;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+             border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+
+        }
+
+        .PanelPageNumber .btnPrevious {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 20px -5px 20px 0px;
+            vertical-align: top;
+            line-height: 1.42857143;
+            color: #666;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .PanelPageNumber .btnNext {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 20px 0px 20px -5px;
+            vertical-align: top;
+            line-height: 1.42857143;
+            color: #666;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .PanelPageNumber .btnLast {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 20px 0px 20px -5px;
+            vertical-align: top;
+            line-height: 1.42857143;
+            color: #666;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+           .PanelPageNumber .btnFirst:hover ,  .PanelPageNumber .btnPrevious:hover ,    .PanelPageNumber .btnNext:hover  , .PanelPageNumber .btnLast:hover {
+            z-index: 2;
+            color: #23527c;
+            background-color: #eee;
+                 border-color: #ddd;
+                 }
+
+        .page-nation {
+            display: inline-block;
+        }
+
+        .pagination > li:first-child > a, .pagination > li:first-child > span {
+            margin-left: 0;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+
+        .pagination > li:last-child > a, .pagination > li:last-child > span {
+            margin-left: 0;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+  
+    </style>
+
+     
+      <section class="row">
+        <div class="col-xs-12 wrap_product_ads">
+            <div class="col-xs-4 wrap_ads">
+                <a href="https://consumer.huawei.com/th/phones/p30-pro" class="ads_01">
+                    <img id="ContentPlaceHolder1_ContentPlaceHolder2_ContentPlaceHolder2_Image1" src="../images/p01.jpg" />
+                </a>
+            </div>
+            <div class="col-xs-4 wrap_ads">
+                <a href="https://www.wd.com/en-um/products/internal-ssd/wd-black-sn750-nvme-ssd.html" class="ads_02">
+                    <img id="ContentPlaceHolder1_ContentPlaceHolder2_ContentPlaceHolder2_Image2" src="../images/p02.jpg" />
+                </a>
+                <a href="https://www.eizoglobal.com/products/flexscan/ev2450/index.html" class="ads_03">
+                    <img id="ContentPlaceHolder1_ContentPlaceHolder2_ContentPlaceHolder2_Image3" src="../images/p03.jpg" />
+                </a>
+            </div>
+            <div class="col-xs-4 wrap_ads">
+                <a href="https://www.hyperxgaming.com/th/memory/predator-ddr4" class="ads_04">
+                    <img id="ContentPlaceHolder1_ContentPlaceHolder2_ContentPlaceHolder2_Image4" src="../images/p04.jpg" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-xs-12 category_name"><h3>recommended</h3></div>
+        <div class="col-xs-12 sub_category_name"><h1>products</h1></div>
+        <div class="col-xs-12 wrap_product_item">
+            <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder2$ContentPlaceHolder2$hdIndex" id="ContentPlaceHolder1_ContentPlaceHolder2_ContentPlaceHolder2_hdIndex" value="b8116c8b-6d92-4ed0-9cc3-65093b6b8ac8" />
+        
+            <figure class="col-xs-6 col-sm-3 product_item">
+                <a href="productdetail.aspx?Itemid=QTEtSzQ0MVVBLVdYMTM0">
+                    <img src="PicQuery.aspx?ItemId=QTEtSzQ0MVVBLVdYMTM0">
+                    <figcaption class="product_name">NOTEBOOK ASUS</figcaption>
+                    <div class="product_model"> Model :&nbsp;A1-K441UA-WX134</div>
+                    <div class="btnmore">More Details</div>
+                      <div class="op_brand">
+                                                    <img src='PicQuery.aspx?Brand=ASUS'>
+                                                </div>
+                </a>
+            &nbsp;&nbsp;</figure>
+            
+            <figure class="col-xs-6 col-sm-3 product_item">
+                <a href="productdetail.aspx?Itemid=VzU2NzE0MDRfNzU2N19CS19VK0JQ">
+                    <img src="PicQuery.aspx?ItemId=VzU2NzE0MDRfNzU2N19CS19VK0JQ">
+                    <figcaption class="product_name">W5671404_7567_BK_U+BP</figcaption>
+                    <div class="product_model"> Model :&nbsp;W5671404_7567_BK_U+BP</div>
+                    <div class="btnmore">More Details</div>
+                      <div class="op_brand">
+                                                    <img src='PicQuery.aspx?Brand=DELL'>
+                                                </div>
+                </a>
+            &nbsp;&nbsp;</figure>
+            
+            <figure class="col-xs-6 col-sm-3 product_item">
+                <a href="productdetail.aspx?Itemid=VzU2NzE1MTI1R19YUFMxM19HT0xEX1dJTjEwK0M=">
+                    <img src="PicQuery.aspx?ItemId=VzU2NzE1MTI1R19YUFMxM19HT0xEX1dJTjEwK0M=">
+                    <figcaption class="product_name">W56715125G_XPS13_GOLD_WIN10+C</figcaption>
+                    <div class="product_model"> Model :&nbsp;W56715125G_XPS13_GOLD_WIN10+C</div>
+                    <div class="btnmore">More Details</div>
+                      <div class="op_brand">
+                                                    <img src='PicQuery.aspx?Brand=DELL'>
+                                                </div>
+                </a>
+            &nbsp;&nbsp;</figure>
+    
+        </div>
+        
+        
+        <div id="truehits">
+               
+                        <script language="javascript1.1"> __th_page="products";</script>
+                        <script language="javascript1.1" src="http://hits.truehits.in.th/data/o0026327.js"></script>
+   
+                    </div>
+    </section>
+    <br>
+
+    <script>
+        $(window).load(function () {
+            $('.productsslide').flexslider({
+                animation: "slide",
+                directionNav: true,
+                controlNav: true,
+                slideshowSpeed: 8000,
+                smoothHeight: false,
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+        </script>
+
+
+        </div>
+    </form>
+    <!---------------inc footer-------->
+    
+<style>
+    footer {
+        border-top: 1px solid #d5d5d5;
+    }
+
+    .copyright {
+        background-color: #36383f;
+        text-align: center;
+        color: #b7b7b7;
+        font-size: 12px;
+        padding: 12px 0 10px 0;
+    }
+
+    .footer_nav {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .item_footer {
+        width: 19.5%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 15px;
+    }
+
+    .socail_head {
+        display: block;
+        color: #444444;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .socail_link {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+        .socail_link a {
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+    .head_footer {
+        font-size: 14px;
+        color: #1a1b1f;
+        font-weight: 800;
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+
+        .head_footer a {
+            display: inline-block;
+            color: #1a1b1f;
+            text-decoration: none;
+        }
+
+    .link_footer {
+        display: block;
+    }
+
+        .link_footer a {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 400;
+            color: #1a1b1f;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+
+    @media screen and (max-width: 1024px) {
+        .footer_nav {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .footer_nav {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .item_footer:nth-child(1) {
+            width: 100%;
+            text-align: center;
+        }
+
+        .item_footer {
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 15px;
+        }
+
+        .footer_nav {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+</style>
+<footer>
+    <div class="footer_nav">
+        <div class="item_footer">
+            <div class="socail_head">SOCAIL MEDIA</div>
+            <div class="socail_link">
+                <a href="https://www.facebook.com/Synnexthailand/">
+                    <img src="../images/facebook_icon.jpg"></a><a href="#"><img src="../images/twitter_icon.jpg"></a><a href="https://www.youtube.com/channel/UCuBGrBawIjShZwXYgKvs0iA"><img src="../images/youtube_icon.jpg"></a>
+            </div>
+        </div>
+        <div class="item_footer">
+            <div class="head_footer">
+                <span id="inc_footer_lbAbout">เกี่ยวกับเรา</span></div>
+            <div class="link_footer">
+                <a id="inc_footer_aAbout" href="../about/history.aspx">ข้อมูลบริษัท</a></div>
+            <div class="link_footer">
+                <a id="inc_footer_aCareer" href="../hr/career.aspx">ร่วมงานกับเรา</a></div>
+            <div class="link_footer">
+                <a id="inc_footer_aNewsroom" href="../newsroom.aspx">ข่าวสาร</a></div>
+        </div>
+        <div class="item_footer">
+            <div class="head_footer"><span id="inc_footer_lbProduct">สินค้า</span></div>
+            <div class="link_footer">
+                <a id="inc_footer_aType" href="products.aspx">หมวดหมู่</a></div>
+            <div class="link_footer">
+                <a id="inc_footer_aBrand" href="brand.aspx">แบรนด์</a></div>
+        </div>
+        <div class="item_footer">
+            <div class="head_footer"><span id="inc_footer_lbServices">บริการ</span></div>
+            <div class="link_footer">
+                <a id="inc_footer_aWarranty" href="../service/warranty_condition.aspx">การรับประกัน</a></div>
+            <div class="link_footer">
+                <a id="inc_footer_aFast" href="../service/fast_service.aspx">บริการจองคิวออนไลน์</a></div>
+            <div class="link_footer">
+                <a id="inc_footer_aCondition" href="../service/check_status.aspx">รายละเอียดงานซ่อม</a></div>
+
+        </div>
+        <div class="item_footer">
+            <div class="head_footer">
+                <a id="inc_footer_aDealer" href="http://www.synnex.co.th/dealer">ตัวแทนจำหน่าย</a></div>
+            <div class="head_footer">
+                <a id="inc_footer_aIR" href="../ir/ir.aspx">นักลงทุนสัมพันธ์</a></div>
+            <div class="head_footer">
+                <a id="inc_footer_aWB" href="../WhistleblowingMain.aspx">ร้องเรียนและแจ้งเบาะแส</a>
+</div>
+                 <div class="head_footer">
+                
+                <a id="inc_footer_aContactUs" href="../service/contact_us.aspx">ร้องเรียนและแนะนำการให้บริการ</a>
+                <i class="material-icons" style="vertical-align:middle;">supervisor_account</i>
+                    
+            </div>
+        </div>
+    </div>
+    <script src="https://www.trustmarkthai.com/callbackData/initialize.js?t=95a490-32-5-6ee91cf28d1642d14f5ca0fde0570835e7933b0" id="dbd-init"></script>
+    <div class="footer_nav" style="text-align:center; padding-top:0px;">
+            <div id="Certificate-banners" style="margin:auto;"></div>
+        </div>
+    <div class="copyright">© 2016 Synnex(Thailand) Public Company Limited.  All rights reserved.</div>
+</footer>
+
+    
+    
+
+</body>
+</html>

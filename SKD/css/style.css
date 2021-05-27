@@ -1,0 +1,196 @@
+body {
+	font-family: 'Roboto', 'Prompt', sans-serif;
+}
+
+.section {
+
+}
+
+.inner-wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.lr {
+
+}
+
+.lr>.c-l {
+	float: left;
+}
+
+.lr>.c-r {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*-----------------------*/
+
+.section.header {
+	background-color: #121212;
+	color: #fff;
+}
+
+.section.header>.inner-wrapper {
+	padding: 10px 0px;
+}
+
+.section.header>.inner-wrapper>.lr {
+
+}
+
+.section.header>.inner-wrapper>.lr>.c-l {
+	font-size: 24px;
+}
+
+.section.header>.inner-wrapper>.lr>.c-r {
+
+}
+
+.section.header>.inner-wrapper>.lr>.c-r>a {
+	color: #cecece;
+	display: inline-block;
+	margin: 6px 10px 0px 10px;
+	text-decoration: none;
+}
+
+/*-----------------------*/
+
+.section.menu {
+
+}
+
+.section.menu>.inner-wrapper {
+	font-size: 0px;
+}
+
+.section.menu>.inner-wrapper>a {
+	font-size: 14px;
+	color: #121212;
+	display: inline-block;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+
+.section.menu>.inner-wrapper>a:hover {
+	color: #121212;
+	background-color: #acacac;
+	font-style: italic;
+}
+
+.section.menu>.inner-wrapper>a.selected {
+	color: #ececec;
+	background-color: #acacac;
+	font-style: italic;
+}
+
+/*-----------------------*/
+
+.section.cover {
+	height: 500px;
+	background-image: url(../images/3b.png);
+	background-repeat: no-repeat; /* ไม่ทำซ้ำ เป็นเหมือนกระเบื้อง */
+	background-attachment: fixed; /* ไม่ให้รูปเคลื่อน */
+	background-position: 0px 80px; /* เลื่อนขึ้น เลื่อนลง แกน X,y */
+	background-size: cover; /* คือการบีบรูปให้พอดี */
+	overflow: auto;
+}
+
+.section.cover>.inner-wrapper {
+
+}
+
+.section.cover>.inner-wrapper>div {
+	text-align: center;
+	color: #ececec;
+	margin: 100px auto 0px auto;
+	width: 960px;
+}
+
+.section.cover>.inner-wrapper>div>h2 {
+	font-size: 40px;
+	text-shadow:0 1px 4px rgba(0, 0, 0, .8);
+}
+
+.section.cover>.inner-wrapper>div>p {
+	font-size: 16px;
+	margin: 20px 0px 30px 0px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 10px 0px;
+	text-shadow:0 1px 4px rgba(0, 0, 0, .8);
+}
+
+.section.cover>.inner-wrapper>div>a {
+	color: #fff;
+	background-color: #acacac;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	margin: 50px 15px;
+	/* border-radius.com */
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 2px solid #acacac;
+	/* opacity: 0.6; เพิ่มความโปร่งใสตัววัตถุ */ 
+}
+
+.section.cover>.inner-wrapper>div>a:hover {
+	background-color: transparent;
+	border: 2px solid #fff;
+	-webkit-transition:background-color 0.6s;
+	transition: background-color 0.6s;
+}
+
+/*-----------------------*/
+
+.section.products {
+
+}
+
+.section.products>.inner-wrapper {
+	padding: 20px 0px;
+}
+
+.section.products>.inner-wrapper>.items {
+
+}
+
+.section.products>.inner-wrapper>.items>.item {
+	width: 220px;
+	margin: 10px;
+	float: left;
+}
+
+.section.products>.inner-wrapper>.items>.item>div {
+
+}
+
+.section.products>.inner-wrapper>.items>.item>div>img {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.section.products>.inner-wrapper>.items>.item>h3 {
+	padding: 10px 0px;
+	font-size: 24px;
+	display: block;
+	text-decoration: none;
+	color: #121212;
+}
+
+.section.products>.inner-wrapper>.items>.item>h4 {
+	
+}
+
+/*-------------------*/
+
+
+
+
+
+
